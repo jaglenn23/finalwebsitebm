@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Your Story</title>
+        <link rel="stylesheet" href="css/style.css">
         <meta charset="UTF-8">
         <meta name="description" content="Form">
         <meta name="keywords" content="Your Story Form">
@@ -20,50 +21,92 @@
 
     <body>
         <header>
-            <img src="images/BeautifulMindsLogo.png" alt="Beautiful Minds Logo"
-            width="400" height="300"> 
+            <img src="images/BeautifulMindsLogo.png" alt="Beautiful Minds Logo"> 
             <h1>Beautiful Minds</h1>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="whatIs.html">What Is MS?</a> |
-            <a href="BlackWithMS.html">Black With MS</a> |
-            <a href="yourStory.html">Your Story</a> |
-            <a href="Resources.html">Resources</a>
-        </nav>
-        <h1>Your Story</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="whatIs.html">What Is MS?</a></li>
+                    <li><a href="BlackWithMS.html">Black With MS</a></li>
+                    <li><a href="yourStory.html">Your Story</a></li>
+                    <li><a href="Resources.html">Resources</a></li>
+                </ul>
+            </nav>   
     </header>
     <main>
-        <form action=https://wp.zybooks.com/form-viewer.php method="POST">
-            <div>
+        <div>
+        <h1>Your Story</h1>
+        <p>
+            If you would like to share your MS story, 
+            feel free to fill out the form below. With your consent we may share your story to our social media.</p>
+        </div>
+        <form action=https://wp.zybooks.com/form-viewer.php method="POST" class="form">
+            <div class="name">
                <label for="name">Name:</label>
                <input type="text" name="name" id="name" required>
             </div>
-            <div>
+            <div class="email">
                <label for="email">Email:</label>
                <input type="text" name="email" id="email" required>
             </div>
-            <div>
-                <label for="typeofms">Type of MS</label>
+            <div class="type">
+                <label for="typeofms">Type of MS:</label>
                 <input type="text" name="typeofms" id="typeofms">           
             </div>
-            <div>
-                <label for="yeardiag">Year Diagnosed</label>
+            <div class="year">
+                <label for="yeardiag">Year Diagnosed:</label>
                 <input type="text" name="yeardiag" id="yeardiag" >
             </div>
-            <div>
-                <label for="yourstory">Type Your Story Here</label>
+            <div class="share">
+                <label for="yourstory">Share Your Story Here:</label>
                 <textarea id="yourstory" name="yourstory" rows="4" cols="50" required></textarea>
+            </div>
+            <p>DO YOU GIVE BEAUTIFUL MINDS PERMISSION TO SHARE ON SOCIAl MEDIA PLATFORMS?</p>
+            <div class="yes">
+                <input type="radio" name="choice" value="yes" id="yes">
+                <label for="yes">Yes</label>
+            </div>
+            <div class="no">
+                <input type="radio" name="choice" value="no" id="no">
+                <label for="no">No</label>
             </div>
 
             <input type="submit">
          </form>
-        
-        </main>
-    <footer>
-        <img src="images/FooterforWebsite.png" alt="footer of website, orange with logo"
-        height="300">
 
-    </footer>
+        <div class="Mystory">
+            <h2>My Story</h2>
+            <img src="images/jasmineglenn.jpg" alt="picture of Jasmine" class="me">
+            <section>
+                <p>Jasmine Glenn| Diagnosed 2021| RRMS </p>
+                <p> Creator of Beautiful Minds </p>
+            </section>
+            <p>My journey with Multiple Sclerosis started at the early age of 12. I remember the 
+                uncomfortable feeling of numbness in my legs. I quickly let it be known to my mom,
+                she suggested that it could be my heavy bookbag from school. After a month, my legs were still numb, 
+                and I could barely feel my feet as I walked. My mom quickly scheduled me to see my family doctor, 
+                which he then scheduled me to see a neurologist. Little did I know, this would be the beginning of
+                a long journey to finding out what was wrong with me. Many nights I scrolled on Google to find
+                out what could be wrong with me, it always left me feeling lost and longing for a diagnosis. 
+                I experienced many relapses, which was a loss of sensation in my legs, feet, and one time I lost 
+                all sensation in my right hand (my dominant hand). I had many blood tests, MRIs, and a spinal tap done.
+                In 2021, at the age of 16 my neurologist suspected that it was MS. He sent me to Charleston, where I 
+                had another MRI, and I was diagnosed with MS. Shockingly I was relieved, with this diagnosis. I had 
+                finally learned what was wrong with me. In 2022, I began taking a medicine named Gilenya. This medicine 
+                has helped me, and I have not had a relapse since
+                I have been taking it. This is
+                just the beginning and but I like to think I have been navigating my MS Beautifully so far.</p>
+
+        </div>
+        
+    </main>
+        <footer>
+            <div>
+                <img class="center" src="images/BeautifulMindsLogo.png" alt="Beautiful Minds Logo"> 
+                <h1> Navigating Mutiple Sclerosis Beautifully</h1>
+                
+            </div>
+        </footer>
 
 
 

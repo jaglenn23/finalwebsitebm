@@ -1,0 +1,365 @@
+/* INDEX*/
+/* This is setting the color of the footer*/
+footer div{
+    background-color: #ff914d; 
+}
+/* This is setting the position of the slogan in the footer*/
+footer h1{
+    text-align: center;
+}
+/* This is setting the image in the footer to a circle, and positioning it*/
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 70px; 
+    border-radius: 100%;
+}
+/* This is setting all h1 tags to center in the page*/
+h1{
+    text-align: center;
+}
+/* This is setting the logo in the header */
+header img{
+    display:inline-flex;
+    height:200px;
+    padding-left: 15px;
+    padding-top:15px ;
+
+}
+/* This is positioning and formatting the navigation */
+nav ul{
+    display:flex;
+    list-style-type: none;
+    padding:0px;
+}
+/* This is also formatting the navigation */
+nav li {
+    flex-grow: 1;
+    text-align: center;
+}
+/* This is setting the color and removing underline from navigation */
+nav a{
+    text-decoration:none;
+    color:black;
+}
+/* This is setting the color of header and font */
+header{
+    background-color: #ff914d;
+    font-family: 'Lucida Sans';
+
+}
+/* This is setting the position of the h1 tag in the header*/
+header h1{
+    text-align:center;
+    display: inline-flex;
+}
+/* This is css for the 1st button(right under about section)
+this creates the elispse shape, its position on the page, and the format of the text */
+.about a {
+    background-color: #ff914d;
+    color: black;
+    display:block;
+    border-radius: 12px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    padding-top: 20px;
+    border-radius: 50%;
+    position:absolute;
+    margin: 0px 20%;
+    
+}
+/* This is setting how the text in the about section looks
+it centered the text to the page, the font size is large, and I used padding to have proper spacing */
+.about{
+    display: block;
+   text-align: center;
+    padding: 25%;
+    padding-top:0px;
+    padding-bottom:40px;
+    font-size:larger;
+
+}
+/* This is serting the second div of infomation(Navigating MS) this is making it a block,
+ and setting it postion on the page, I used padding to create a appropriate look*/
+.container{
+    display: block;
+    padding: 250px;
+    padding-top:0px;
+    padding-left:90px;
+    font-size:larger;
+    padding-right:200px;
+    padding-bottom: 100px;
+    
+    
+}
+/* This is setting how the text in the Navigating MS div looks, white-space commands, moves the text in three lines, instead of using 
+the whole page I am currently trying to find a better way, but that is the best thing I could find so far.*/
+.container p{
+    display: block;
+    text-align: left;
+    white-space: pre;
+
+}
+/* This is setting how the h2 tag in the second div looks, it is aligned to the left, and I used padding to properly format it 
+On the webpage it is next to the image*/ 
+.container h2{
+    text-align:left;
+    padding-top:90px;
+}
+
+/* This is setting what the img looks like, it is floated to the left and I changed the height and width*/
+.container img{
+    display:block;
+    float: left;
+    height:250px;
+    width:200px;
+    
+    
+    
+    
+}
+/* This is setting how the button looks under the navigating section. Its the same as the first, but it is floated right */
+.container a{
+    background-color: #ff914d;
+    color: black;
+    display:block;
+    float:right;
+    border-radius: 12px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    padding-top: 20px;
+    border-radius: 50%;
+    
+    
+}
+/* This is setting how the h2 tag in the What Next (3rd) section looks */
+.WhatN h2{
+    text-align: center;
+}
+/* This is for the button under the what's next information. It is the same as the other two, 
+but I set the margin different to get it in the center*/
+.WhatN a{
+    background-color: #ff914d;
+    color: black;
+    display:block;
+    border-radius: 12px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    padding-top: 20px;
+    border-radius: 50%; 
+    position:absolute;
+    margin: 0px 20%;
+    
+}
+/* This is setting the whats next div as a class and formatting how it looks. 
+I wanted the text to be in the center of the page, so I added padding, I also added padding to add proper space between the previous div 
+*/
+.WhatN{
+    display:block;
+    padding:100px;
+    text-align:center;
+    padding-left:25%;
+    padding-right:25%;
+    padding-top:0px;
+    font-size:larger;   
+}
+/* WHAT IS MS? PAGE*/
+
+/* This is setting the first div, it is cetering the text, I used padding to get the text in the center of the page
+I also change the font size */
+.explain{
+    text-align:center;
+    padding:70px;
+    padding-top:5px;
+    padding-left: 200px;
+    padding-right:200px;
+    font-size:larger
+}
+/* This is formatting the first block of information on this page */    
+
+main div p{
+    text-align: center;
+    font-size: large;
+}
+/* This seeting the second div, I added padding, to make space,changed the font size, and aligned text to the left */
+.symptoms{
+    
+    padding:200px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:20px;
+    font-size:larger;
+    text-align:left;  
+}
+/* This is setting the image in the second div, i changed the height, floated it to the right,
+and added a margin to position it right on the page */
+.symptoms img{
+    display:block;
+    float: right;
+    padding:0px;
+    height:500px;
+    margin:-20px -0px;
+
+    
+}
+/*This is formatting the text under h2 tag.*/
+.symptoms p{
+    text-align: left;
+}
+/* This is setting the 3rd div. I added padding to give proper spacing between the previous div, I set font size, and aligned the text*/
+.treat{
+    padding-left:0px;
+    padding-right:0px;
+    padding-top: 100px;
+    font-size:larger;
+    text-align:left;
+    
+    
+}
+/* This is setting how the text in 3rd div looks
+it is to the left and i added padding to have it properly on the page */
+.treat p{
+    padding-right:500px;
+    text-align:left;
+}
+/* This is setting how the image in 3rd div looks
+it is floated to the right, also change the height/width, and margin to postion it right on the page*/
+.treat img{
+    display:block;
+    float: right;
+    padding-top:20px;
+    height:300px;
+    width:400px;
+    margin:-60px 0px ;
+
+}
+
+/* YOUR STORY*/
+
+/* This is setting the color of the form, and adding padding to positon the fields closer to the center*/
+.form{
+    background-color: #ff914d;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* This is setting width of input tag*/
+input{
+    width: 100%;
+ 
+}
+/*This is setting the div for the name field. I used padding to add space between*/
+.name{
+    padding-top:20px;
+}
+/*This is setting the div for the email field. I used padding  to add space between*/
+.email{
+    padding-top:20px;
+}
+/*This is setting the div for the type of ms field. I used flex, so that it could be beside another field.
+ I also added padding to add space between*/
+.type{
+    display:block;
+    float: left;
+    width: 40%;
+    padding-top:20px;
+    
+}
+/*This is setting year div, It is beside the type field. I used the same setting as the type, but this is floated to the right*/
+.year{
+    width: 40%;
+    display: block;
+    float:right;
+    padding-top:20px;    
+}
+/*This is setting the elements of the yourstory div, used padding for positioning.  */
+.share{
+   
+    padding-top:70px;
+    display:inline-block;
+    width:100%;
+    padding-right:30px;
+    
+}
+/*This is setting the label to flex, so that the textbox is on the bottom,and the text is on the top*/
+.share label{
+    display:flex;
+    
+}
+/*This is setting the size of the textarea*/
+.share textarea{
+    width:90%;
+    height: 190px;
+    
+}
+/*This is creating a widget for the form. This is for the consent part at the bottom*/
+.yes{
+    width:20%;
+    display:flex;
+    padding-bottom:20px;
+    
+}
+/*This is creating a widget for the form. This is for the consent part at the bottom*/
+.no{
+    width:20%;
+    display:flex;
+    padding-bottom:20px;
+}
+/*This is making the submit button a shape. I used margins to move it to the proper place on the page*/
+input[type=submit]{
+    border: none;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: -40px;
+  width: 20%;
+  height: 25%;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+}
+/*This is setting the h2 in the div for My Story at the bottom of the page.*/
+.Mystory h2{
+    text-align: center;
+}
+/*This is setting the image in the div for My Story at the bottom of the page. 
+This make the Image into a circular shape and moves it to the middel of the page. It also adds a border*/
+.Mystory img{
+    border-radius: 50%;
+    display:block;
+    margin: auto;
+    border: solid black 3px;
+
+}
+
+/*This is setting the text under the image. It changes the alignment and color*/
+.Mystory section p{
+    text-align: center;
+    color: #ff914d;
+}
+/*This is setting the text for my story. I added padding to center it to the page.*/
+.Mystory p{
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+/*This is adding spacing between the list items.*/
+ul li{
+    line-height: 2rem;
+}
+
+
+
