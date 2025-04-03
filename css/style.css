@@ -102,7 +102,8 @@ the whole page I am currently trying to find a better way, but that is the best 
 .container p{
     display: block;
     text-align: left;
-    white-space: pre;
+   
+
 
 }
 /* This is setting how the h2 tag in the second div looks, it is aligned to the left, and I used padding to properly format it 
@@ -118,7 +119,7 @@ On the webpage it is next to the image*/
     float: left;
     height:250px;
     width:200px;
-    
+    margin: 0px 30px;
     
     
     
@@ -307,19 +308,21 @@ input{
 }
 /*This is creating a widget for the form. This is for the consent part at the bottom*/
 .yes{
-    width:20%;
+    width:10%;
     display:flex;
     padding-bottom:20px;
+    font-size: larger;
     
 }
 /*This is creating a widget for the form. This is for the consent part at the bottom*/
 .no{
-    width:20%;
+    width:10%;
     display:flex;
     padding-bottom:20px;
+    font-size: larger;
 }
 /*This is making the submit button a shape. I used margins to move it to the proper place on the page*/
-input[type=submit]{
+button[type=submit]{
     border: none;
   color: black;
   padding: 16px 32px;
@@ -362,4 +365,27 @@ ul li{
 }
 
 
+#msresources img{
+    height: 200px;
+    display: block;
+    float: left;
 
+}
+#msresources{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+#msresources div{
+    box-shadow: 5px 5px 5px grey;
+    padding: 10px 10px;
+    width: 50%;
+  
+}
+
+
+#bwma ul{
+    text-align: right;
+}
