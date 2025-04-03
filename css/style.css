@@ -255,6 +255,9 @@ it is floated to the right, also change the height/width, and margin to postion 
     padding-right: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 30%;
+    margin: 0px 29%;
+    
 }
 
 /* This is setting width of input tag*/
