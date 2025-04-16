@@ -2,20 +2,31 @@
 /* This is setting the color of the footer*/
 footer div{
     background-color: #ff914d; 
+    height: 150px;
+    padding-top: 5px;
+
+
 }
 /* This is setting the position of the slogan in the footer*/
 footer h1{
     text-align: center;
+
 }
 /* This is setting the image in the footer to a circle, and positioning it*/
 .center{
     display:block;
     margin-left: auto;
     margin-right: auto;
-    height: 60px;
+    height:70px;
     width: 70px; 
     border-radius: 100%;
 }
+body{
+    margin: 0px ;
+   
+}
+
+
 /* This is setting all h1 tags to center in the page*/
 h1{
     text-align: center;
@@ -48,12 +59,12 @@ nav a{
 header{
     background-color: #ff914d;
     font-family: 'Lucida Sans';
-
 }
 /* This is setting the position of the h1 tag in the header*/
 header h1{
     text-align:center;
-    display: inline-flex;
+    display: inline;
+    padding-left: 100px;
 }
 /* This is css for the 1st button(right under about section)
 this creates the elispse shape, its position on the page, and the format of the text */
@@ -196,12 +207,12 @@ main div p{
 /* This seeting the second div, I added padding, to make space,changed the font size, and aligned text to the left */
 .symptoms{
     
-    padding:200px;
     padding-left:0px;
     padding-right:0px;
     padding-top:20px;
     font-size:larger;
     text-align:left;  
+     padding-bottom:100px  
 }
 /* This is setting the image in the second div, i changed the height, floated it to the right,
 and added a margin to position it right on the page */
@@ -209,8 +220,9 @@ and added a margin to position it right on the page */
     display:block;
     float: right;
     padding:0px;
-    height:500px;
+    height:400px;
     margin:-20px -0px;
+    padding-right: 10px;
 
     
 }
@@ -222,10 +234,10 @@ and added a margin to position it right on the page */
 .treat{
     padding-left:0px;
     padding-right:0px;
-    padding-top: 100px;
+    padding-top: 50px;
     font-size:larger;
     text-align:left;
-    
+    padding-bottom:100px
     
 }
 /* This is setting how the text in 3rd div looks
@@ -242,7 +254,8 @@ it is floated to the right, also change the height/width, and margin to postion 
     padding-top:20px;
     height:300px;
     width:400px;
-    margin:-60px 0px ;
+    /* margin:-60px 0px ; */
+    padding-right: 10px;
 
 }
 
