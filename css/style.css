@@ -1,5 +1,8 @@
 /* INDEX*/
 /* changing font family*/
+header h1{
+    position:relative;
+}
 p{
     font-family: georgia;
 }
@@ -423,6 +426,7 @@ ul li{
     height: 200px;
     display: block;
     float: left;
+    
 
 }
 /* adds formatting to div containers on resources page*/
@@ -444,17 +448,94 @@ ul li{
 
 /* changes color of divs when mouses hovers it*/
 #msresources div:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     background-color: ghostwhite;
+    
 }
-
+/* changing font size*/
 #msresources p{
     font-size: larger;
 }
-
+/* changing font size*/
 #bwms p, ul{
     font-size: large;
+   
 }
-
+/* changong font family*/
 #bwms h2{
     font-family: Georgia;
 }
+
+#bwms{
+    display: inline-block;
+}
+
+/* card layout fo upcoming events*/
+.card {
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:40%;
+    margin: 0px 400px;
+  
+    
+  }
+  
+ /* hover css with box shadow*/ 
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+.information{
+    padding: 2px 16px;
+}
+
+/* card layout fo upcoming events*/
+.card2 {
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:40%;
+    margin: 0px 400px;
+  
+    
+  }
+  
+/* card layout fo upcoming events*/  
+.card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+.card2 img{
+    width: 40%;
+}
+
+/* card layout fo upcoming events*/
+.card3 {
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:40%;
+    margin: 0px 400px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+    
+    
+  
+    
+  }
+  /* css for link, aligning it properly*/
+  .card3 a{
+    text-decoration: none;
+    color: black;
+    font-family: georgia;
+    width: 100%; 
+    height: 100%;
+    margin: 0px 40px; 
+    
+    
+  }
+  
+  /* card layout fo upcoming events*/
+  .card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
