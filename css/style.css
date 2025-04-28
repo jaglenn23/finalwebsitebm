@@ -1,5 +1,13 @@
 /* INDEX*/
-/* This is setting the color of the footer*/
+/* changing font family*/
+p{
+    font-family: georgia;
+}
+/* changing font family*/
+li{
+    font-family: georgia;
+}
+/* This is setting the color and dimensionsof the footer*/
 footer div{
     background-color: #ff914d; 
     height: 150px;
@@ -10,6 +18,7 @@ footer div{
 /* This is setting the position of the slogan in the footer*/
 footer h1{
     text-align: center;
+    font-family: georgia;
 
 }
 /* This is setting the image in the footer to a circle, and positioning it*/
@@ -21,6 +30,7 @@ footer h1{
     width: 70px; 
     border-radius: 100%;
 }
+/* to take away white space around header*/
 body{
     margin: 0px ;
    
@@ -30,6 +40,7 @@ body{
 /* This is setting all h1 tags to center in the page*/
 h1{
     text-align: center;
+    font-family: Georgia;
 }
 /* This is setting the logo in the header */
 header img{
@@ -65,6 +76,7 @@ header h1{
     text-align:center;
     display: inline;
     padding-left: 100px;
+    font-family: georgia;
 }
 /* This is css for the 1st button(right under about section)
 this creates the elispse shape, its position on the page, and the format of the text */
@@ -83,6 +95,11 @@ this creates the elispse shape, its position on the page, and the format of the 
     position:absolute;
     margin: 0px 20%;
     
+}
+/* changes color of div when hovered over*/
+.about a:hover{
+    background-color: black;
+    color: white;
 }
 /* This is setting how the text in the about section looks
 it centered the text to the page, the font size is large, and I used padding to have proper spacing */
@@ -109,7 +126,7 @@ it centered the text to the page, the font size is large, and I used padding to 
     
 }
 /* This is setting how the text in the Navigating MS div looks, white-space commands, moves the text in three lines, instead of using 
-the whole page I am currently trying to find a better way, but that is the best thing I could find so far.*/
+the whole page.*/
 .container p{
     display: block;
     text-align: left;
@@ -152,6 +169,12 @@ On the webpage it is next to the image*/
     
     
 }
+/* changes color of container when mouse hovers over it */
+.container a:hover{
+    background-color: black;
+    color: white;
+
+}
 /* This is setting how the h2 tag in the What Next (3rd) section looks */
 .WhatN h2{
     text-align: center;
@@ -173,6 +196,12 @@ but I set the margin different to get it in the center*/
     position:absolute;
     margin: 0px 20%;
     
+}
+/* changes color of button when hovered over*/
+.WhatN a:hover{
+        background-color: black;
+        color: white;
+
 }
 /* This is setting the whats next div as a class and formatting how it looks. 
 I wanted the text to be in the center of the page, so I added padding, I also added padding to add proper space between the previous div 
@@ -350,6 +379,13 @@ button[type=submit]{
   cursor: pointer;
   float: right;
 }
+
+
+/* changes color of submit button when mouse hovers over it*/
+button[type=submit]:hover{
+        background-color: black;
+        color: white;
+}
 /*This is setting the h2 in the div for My Story at the bottom of the page.*/
 .Mystory h2{
     text-align: center;
@@ -364,10 +400,12 @@ This make the Image into a circular shape and moves it to the middel of the page
 
 }
 
+
+
 /*This is setting the text under the image. It changes the alignment and color*/
 .Mystory section p{
     text-align: center;
-    color: #ff914d;
+    
 }
 /*This is setting the text for my story. I added padding to center it to the page.*/
 .Mystory p{
@@ -380,13 +418,14 @@ ul li{
     line-height: 2rem;
 }
 
-
+/* added dimensions and formatting to images*/
 #msresources img{
     height: 200px;
     display: block;
     float: left;
 
 }
+/* adds formatting to div containers on resources page*/
 #msresources{
     display: flex;
     justify-content: space-evenly;
@@ -394,6 +433,8 @@ ul li{
     align-content: center;
     
 }
+
+/* also adds formating to divs, creates box shadows around divs*/
 #msresources div{
     box-shadow: 5px 5px 5px grey;
     padding: 10px 10px;
@@ -401,7 +442,19 @@ ul li{
   
 }
 
+/* changes color of divs when mouses hovers it*/
+#msresources div:hover{
+    background-color: ghostwhite;
+}
 
-#bwma ul{
-    text-align: right;
+#msresources p{
+    font-size: larger;
+}
+
+#bwms p, ul{
+    font-size: large;
+}
+
+#bwms h2{
+    font-family: Georgia;
 }
